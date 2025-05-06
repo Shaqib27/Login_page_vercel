@@ -1,11 +1,10 @@
-
-// tailwind.config.js
 module.exports = {
     content: [
-        "./src/**/*.{html,js,jsx,ts,tsx}", // Your files
-        "./node_modules/flowbite/**/*.js"    // Flowbite source files (required)
+        "./public/**/*.html",
+        "./src/**/*.{js,jsx,ts,tsx}",
+        "./node_modules/flowbite/**/*.js"
     ],
     plugins: [
-        require('flowbite/plugin') // ✅ Loads Flowbite's plugin
+        require('flowbite/plugin')
     ]
-};
+}
