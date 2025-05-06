@@ -4,7 +4,5 @@ module.exports = {
         "./src/**/*.{js,jsx,ts,tsx}",
         "./node_modules/flowbite/**/*.js"
     ],
-    plugins: [
-        require('flowbite/plugin')
-    ]
+    plugins: [require('flowbite/plugin')]
 }
